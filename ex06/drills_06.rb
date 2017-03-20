@@ -31,5 +31,20 @@ puts joke_evaluation
 # Once again we store a string in a variable
 w = "This is the left side of..."
 e = "a string with a right side."
-# This concatenates two strings and orints them
+# This concatenates two strings and prints them as a single one.
 puts w + e
+
+# Answering the question abour swaping the double quotes for single quotes
+# we can check the result in the next examples:
+
+do_not = 'don't' 
+y = 'Those who know #{binary} and those who #{do_not}.'
+
+puts 'I also said: '#{}'.'
+
+=begin I we run this on ruby, we get drills_06.rb:40: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+do_not = 'don't', which lets us know that there is an issue in line 40. This doesn't mean
+we might not have any other issues, rather that this is the first issue it has found
+and therefore ruby stops trying to run the program.
+
+
