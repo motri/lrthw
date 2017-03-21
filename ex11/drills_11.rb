@@ -1,7 +1,7 @@
 print "Which is your favourite language? "
-language = gets.chomp
+language = $stdin.gets.chomp
 print "Seriously though, which is your favourite PROGRAMMING language? "
-programming_language = gets.chomp
+programming_language = $stdin.gets.chomp
 
 
 puts "So, you first said #{language}, then you said #{programming_language}. You must be really wise!"
