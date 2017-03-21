@@ -16,7 +16,7 @@ passengers = 90
 # to compute the equations and assign the result to the new variable
 cars_not_driven = cars - drivers
 #In this case we assign the value of drivers to cars_driven, so if we were
-#to change the value of drivers the value stored in cars_driven would change too.
+#to change the value of drivers the value stored in cars_driven would change too. 
 cars_driven = drivers
 carpool_capacity = cars_driven * space_in_a_car
 average_passengers_per_car = passengers / cars_driven

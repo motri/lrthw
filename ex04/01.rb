@@ -1,7 +1,10 @@
 # In this exercise we are looking at variables
 
 # Unlike in math, the "=" here is an assigment operator
+# So in this case, we are naming the variable cars and assigning the value of 100
 cars = 100 
+# In ruby it is best practice to name the variables as literally as possible, using
+# lower case, always starting with a letter and using underscore as spacers, a.k.a. snake_case
 space_in_a_car = 4.0 
 drivers = 30
 passengers = 90
