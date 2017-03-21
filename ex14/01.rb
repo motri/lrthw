@@ -1,4 +1,4 @@
-user_name = ARGV.first
+user_name = ARGV.first # We use this when we want to just use one argument.
 prompt = '> '
 
 puts "Hi #{user_name}"
