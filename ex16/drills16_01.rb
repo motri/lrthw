@@ -8,6 +8,8 @@ $stdin.gets
 
 puts "Opening the file..."
 target = open(filename, 'w')
+#using the "w" tells ruby to open the file and allow us to write in it.
+#It also truncates it to 0 length in this case.
 
 puts "Truncating the file. Goodbye!"
 
