@@ -1,0 +1,48 @@
+print
+puts
+puts """string"""
+
+"#{}"
+
+=
+
++
+-
+/
+%
+*
+
+<
+>
+=
+<=
+>=
+
+%{}
+%q{}
+{first: 1, second: 2}
+
+\n
+\t
+\\
+
+
+$stdin.gets.chomp
+
+.to_i
+.to_s
+.to_f
+
+first, second, third = ARGV
+first = ARGV.first
+
+.read
+open(file)/(file, "r")/(file, "w")
+.truncate(0)
+.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
+.close
+
+def/function(parameters optional)/end
+def/function(*arguments)/end
+
+.seek(0)
